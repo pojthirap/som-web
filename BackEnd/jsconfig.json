@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"],
+      "@img/*": ["public/img/*"],
+      "@styles/*": ["styles/*"],
+      "@redux/*": ["redux/*"],
+      "@enum/*": ["utils/enum/*"],
+      "@helper": ["utils/helper.js"],
+      "@apiPath": ["utils/apiPath.js"],
+      "@msg": ["utils/msg.js"],
+    }
+  }
+}
